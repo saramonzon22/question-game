@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    height: 25vh;
+    background-color: #b8e9ed;
+    
+      
+}
+.title {
+    background-image: url('../images/Countries.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 15vh;
+    margin: 10px;
+     
+}
+
+.bandera {
+    border: solid black 2px;
+}
+.nav {
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: #5A85B8;
+    height: 8vh;
+    border-radius: 25px;
+    color: #FF914D;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+.main-countries {
+    height: 60vh;
+    
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: 'Bungee', cursive;
+    gap: 15px;
+    
+    
+}
+.main-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/mapamundi_Europa_Occidental.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100vw;
+    height: 70vh;
+    align-self: center;
+    z-index: -9999;
+    background-color: #b8e9ed;
+}
+.fake-button {
+    align-self: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #FF914D;
+    text-shadow: 2px 2px 2px black;
+    
+}
+.btn-info {
+    background-color: #5A85B8;
+    align-self: center;
+    
+}
+.element {
+    background-color: antiquewhite;
+    width: 100px;
+    text-align: center;
+}
+.btn-secondary {
+    font-size: 20px;
+}
+.footer {
+    background-color: #5A85B8;
+    height: 5vh;
+}
